@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <title>Ambientales</title>
+    <link rel="icon" href="../logo/world.png">
+    <link rel="stylesheet" href="sytles2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../logo/logodef.PNG" alt="Logo">
+        </div>
+        <div class="header-container">
+          
+            <nav>
+                <ul class="nav-menu">
+                    <li><a id="Inicio" href="../index.html">Inicio</a></li>
+                    <li class="dropdown", id="dropdown-toggle-crisis">
+                        <a href="#" >Crisis Globales<i class="material-icons dropdown-icon">arrow_drop_down</i></a>
+                        <ul class="dropdown-content">
+                            <li><a id="crisisPoliticas" href="#">Crisis Politicas</a></li>
+                            <li><a id="crisisEconomicas" href="#">Crisis Economicas</a></li>
+                            <li><a id="crisisComerciales" href="#">Crisis Comerciales</a></li>
+                            <li><a id="crisisAmbientales" href="#">Crisis Ambientales</a></li>
+                            <li><a id="crisisSociales" href="#">Crisis Sociales</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown", id="dropdown-toggle-recursos">
+                        <a href="#" >Recursos<i class="material-icons dropdown-icon">arrow_drop_down</i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Informes</a></li>
+                            <li><a href="#">Documentación</a></li>
+                        </ul>
+                    </li>
+                    <li><a id="mapar" href="#">Mapa</i></a></li>
+                    <li><a href="#noticias-destacadas">Destacadas</a></li>
+                    <li><a href="#sobre-nosotros">Nosotros</a></li>
+                </ul>
+            </nav>
+          
+        </div>
+    
+    </header>
+
+    <section class="gallery">
+        <h2>Noticias de Política Mundial</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+              <a href="https://www.elmundo.es/ciencia-y-salud/ciencia/2024/04/24/6628e326fc6c838e688b45db.html" target="_blank"> <img src="../imgntc/amb/1.webp" alt="Ambientales 1"></a>
+                 <div class="gallery-caption">
+                    <h3>Unas rocas de Groenlandia desvelan los registros más antiguos del campo magnético de la Tierra</h3>
+                    <p>Los análisis obtenidos de las rocas más antiguas del mundo proporcionan el registro de los inicios del magnetismo de nuestro planeta, fundamental para el desarrollo de la atmósfera y la vida. </p>
+                </div>
+            </div>
+            <div class="gallery-item">
+              <a href="https://www.bbc.com/mundo/articles/c6pjynrm764o" target="_blank">  <img src="../imgntc/amb/2.jpg" alt="Ambientales 2"></a>
+              
+                <div class="gallery-caption">
+                    <h3>Brasil y Colombia reducen drásticamente sus niveles de deforestación</h3>
+                    <p>La cantidad de árboles que se perdieron en los bosques tropicales de Brasil y Colombia disminuyó drásticamente el año pasado debido a la acción política, según un nuevo análisis.
+                        Los investigadores dicen que los nuevos líderes han dado prioridad al medio ambiente, y la pérdida de árboles en la Amazonía brasileña se redujo en un enorme porcentaje: 39%.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+              <a href="https://www.bbc.com/mundo/articles/cpd38j53v1ko" target="_blank"> <img src="../imgntc/amb/3.jpg" alt="Ambientales 3"></a>
+               
+                <div class="gallery-caption">
+                    <h3>La batalla en el fondo de los océanos por la que Greenpeace podría ser expulsada de un órgano de la ONU</h3>
+                    <p>Empresas mineras y grupos ambientalistas están enfrentados en una batalla por un tesoro multimillonario de metales que se encuentra en el fondo de nuestros océanos más profundos.</p>
+                </div>
+            </div>
+         
+
+        </div>
+    </section>
+
+    <section class="videos">
+        <div class="video-container">
+          <h2>Información sobre Medio Ambiente</h2>
+          <div class="video">
+            <iframe width="500" height="400"
+              src="https://www.youtube.com/embed/YWLLeZzVAZU"
+              frameborder="0" allowfullscreen></iframe>
+            <p>Dónde recae la importancia del medio ambiente? ¿Por qué es tan esencial? Te lo explica en este vídeo de EcologíaVerde. Debemos entender por qué es importante el medio ambiente y por qué debemos cuidarlo y protegerlo. </p>
+          </div>
+          </div>
+      </section>
+      
+
+      <section class="useful-links">
+        <div class="link-container">
+          <h2>Enlaces Útiles para saber más de Medio Ambiente</h2>
+          <div class="link-item">
+            <div class="link-content">
+              <h3 class="link-title"><a href="https://www.ipcc.ch/" target="_blank">Panel Intergubernamental sobre Cambio Climático (IPCC)</a></h3>
+              <p class="link-description">El organismo líder internacional para la evaluación del cambio climático. Ofrece informes, datos y herramientas para comprender la ciencia del clima y sus impactos.</p>
+            </div>
+            <span class="link-icon"><i class="fas fa-chevron-right"></i></span>
+          </div>
+      
+          <div class="link-item">
+            <div class="link-content">
+              <h3 class="link-title"><a href="https://www.greenpeace.org/" target="_blank">Greenpeace</a></h3>
+              <p class="link-description">Una organización ambiental global sin fines de lucro que trabaja para defender el planeta y promover la paz. Ofrece campañas, investigaciones y acciones para proteger el medio ambiente.</p>
+            </div>
+            <span class="link-icon"><i class="fas fa-chevron-right"></i></span>
+          </div>
+          <div class="link-item">
+            <div class="link-content">
+              <h3 class="link-title"><a href="https://www.wwf.org/" target="_blank">World Wildlife Fund (WWF)</a></h3>
+              <p class="link-description">Una organización internacional de conservación que trabaja para proteger la vida silvestre y su hábitat natural. Ofrece información, campañas y acciones para la conservación de la biodiversidad.</p>
+            </div>
+            <span class="link-icon"><i class="fas fa-chevron-right"></i></span>
+          </div>
+          <div class="link-item">
+            <div class="link-content">
+              <h3 class="link-title"><a href="https://www.nationalgeographic.org/encyclopedia/environment/" target="_blank">National Geographic</a></h3>
+              <p class="link-description">Una organización sin fines de lucro que promueve la comprensión y la protección del planeta. Ofrece artículos, videos, fotos y recursos educativos sobre temas ambientales.</p>
+            </div>
+            <span class="link-icon"><i class="fas fa-chevron-right"></i></span>
+          </div>
+          </div>
+      </section>
+      
+      
+
+      <section id="datos-estadisticos" class="statistics">
+        <div class="statistics-container">
+          <h2>Datos y Estadísticas sobre el Medio Ambiente</h2>
+          <div class="statistics-grid">
+          
+            <div class="statistics-item">
+              <h3>Pérdida de Biodiversidad</h3>
+              <p>Explora las tendencias de la pérdida de biodiversidad en el planeta, incluyendo la extinción de especies y la degradación de ecosistemas.</p>
+              <a href="https://www.ipbes.net/assessment/ipbes-global-assessment-report-on-biodiversity-and-ecosystem-services" target="_blank">Ver más</a>
+            </div>
+            <div class="statistics-item">
+              <h3>Deforestación</h3>
+              <p>Visualiza la deforestación global en tiempo real y su impacto en el clima, la biodiversidad y los recursos hídricos.</p>
+              <a href="https://www.globalforestwatch.org/data-and-maps/2023/deforestation-rates-and-trends" target="_blank">Ver más</a>
+            </div>
+            <div class="statistics-item">
+              <h3>Consumo de Agua</h3>
+              <p>Analiza el consumo de agua dulce en el mundo, incluyendo la distribución por sectores y los desafíos de la escasez de agua.</p>
+              <a href="https://www.fao.org/resources/world-water-day/es/" target="_blank">Ver más</a>
+            </div>
+         
+          </div>
+        </div>
+      </section>
+      
+
+
+      <section id="eventos-ambientales" class="events">
+        <div class="events-container">
+          <h2>Próximos Eventos Ambientales</h2>
+          <div class="events-grid">
+            <div class="event-item">
+                <h3>Reforestación de la Amazonía</h3>
+                <p>La iniciativa "Un billón de árboles para la Amazonía" tiene como objetivo plantar un billón de árboles en la Amazonía para el año 2030.</p>
+                <p>El proyecto busca restaurar ecosistemas degradados, combatir el cambio climático y mejorar la calidad de vida de las comunidades locales.</p>
+                <a href="https://trilliontrees.org/forest-landscape-restoration/" class="btn-leer-mas" target="_blank">Leer más</a>
+              </div>
+            <div class="event-item">
+              <h3>Foro Mundial de la Naturaleza</h3>
+              <p>El foro se celebrará en Davos, Suiza, del 16 al 20 de enero de 2025.</p>
+              <p>Los líderes empresariales, gubernamentales y de la sociedad civil se reunirán para discutir la conservación de la biodiversidad y la protección del medio ambiente.</p>
+              <a href="https://www.weforum.org/events/world-economic-forum-annual-meeting-2025" class="btn-leer-mas" target="_blank">Leer más</a>
+            </div>
+            <div class="event-item">
+              <h3>Día Mundial del Medio Ambiente</h3>
+              <p>Se celebra cada año el 5 de junio.</p>
+              <p>Es un día para concienciar sobre la importancia de la protección del medio ambiente y promover acciones sostenibles.</p>
+              <a href="https://www.un.org/es/events/environmentday/" class="btn-leer-mas" target="_blank">Leer más</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    
+
+    
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#"><i class="material-icons">info</i> Sobre Nosotros</a></li>
+                    <li><a href="#"><i class="material-icons">gavel</i> Términos de Servicio</a></li>
+                    <li><a href="#"><i class="material-icons">lock</i> Política de Privacidad</a></li>
+                    <li><a href="#"><i class="material-icons">mail</i> Contáctanos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Categorías de Noticias</h3>
+                <ul>
+                    <li><a href="#">Política</a></li>
+                    <li><a href="#">Economica</a></li>
+                    <li><a href="#">Comercial</a></li>
+                    <li><a href="#">Medio Ambiente</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos en Redes Sociales</h3>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Suscríbete a nuestro boletín</h3>
+                <form>
+                    <input type="email" placeholder="Tu correo electrónico">
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+  
+
+    <script src="main2.js"></script>
+    <script src="/main.js"></script>
+
+
+</body>
+</html>
