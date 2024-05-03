@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <title>Comerciales</title>
+    <link rel="icon" href="../logo/world.png">
+    <link rel="stylesheet" href="sytles2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../logo/logodef.PNG" alt="Logo">
+        </div>
+        <div class="header-container">
+          
+            <nav>
+                <ul class="nav-menu">
+                    <li><a id="Inicio" href="../index.html">Inicio</a></li>
+                    <li class="dropdown", id="dropdown-toggle-crisis">
+                        <a href="#" >Crisis Globales<i class="material-icons dropdown-icon">arrow_drop_down</i></a>
+                        <ul class="dropdown-content">
+                            <li><a id="crisisPoliticas" href="#">Crisis Politicas</a></li>
+                            <li><a id="crisisEconomicas" href="#">Crisis Economicas</a></li>
+                            <li><a id="crisisComerciales" href="#">Crisis Comerciales</a></li>
+                            <li><a id="crisisAmbientales" href="#">Crisis Ambientales</a></li>
+                            <li><a id="crisisSociales" href="#">Crisis Sociales</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown", id="dropdown-toggle-recursos">
+                        <a href="#" >Recursos<i class="material-icons dropdown-icon">arrow_drop_down</i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Informes</a></li>
+                            <li><a href="#">Documentación</a></li>
+                        </ul>
+                    </li>
+                    <li><a id="mapar" href="#">Mapa</i></a></li>
+                    <li><a href="#noticias-destacadas">Destacadas</a></li>
+                    <li><a href="#sobre-nosotros">Nosotros</a></li>
+                </ul>
+            </nav>
+          
+        </div>
+   
+    </header>
+
+    <section class="gallery">
+        <h2>Noticias de Comercio Mundial</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+              <a href="https://es.euronews.com/business/2024/02/26/china-y-europa-buscan-nuevas-rutas-comerciales-asi-sera-el-corredor-medio" target="_blank">  <img src="../imgntc/com/1.webp" alt="Comerciales 1"></a>
+              
+                <div class="gallery-caption">
+                    <h3>China y Europa buscan nuevas rutas comerciales, así será el Corredor Medio</h3>
+                    <p>Europa y China buscan alternativas como canal de comercio que pueda solucionar el aumento del coste de transporte e inflación entre ambas regiones.
+                        Explica Dimitrios Rallis "Todas las crisis, cada una a su manera, afectan a las rutas comerciales mundiales.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+              <a href="https://es.euronews.com/business/2024/01/24/riesgo-de-inflacion-los-ataques-al-mar-rojo-disparan-los-costes-del-transporte-maritimo"  target="_blank"><img src="../imgntc/com/2.webp" alt="Comerciales 2"></a>
+                
+                <div class="gallery-caption">
+                    <h3>Riesgo de inflación: los ataques al Mar Rojo disparan los costes del transporte marítimo</h3>
+                    <p>Los ataques de los hutíes en el Mar Rojo han interrumpido rutas comerciales cruciales entre Europa, Oriente Medio y Asia, lo que ha hecho temer nuevas presiones inflacionistas. Los cambios de ruta de las principales compañías navieras y las posibles interrupciones en el Canal de Suez plantean retos para Europa, y la inflación y las fluctuaciones de los precios de la energía se han convertido en preocupaciones importantes.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+              <a href="https://www.eleconomista.com.mx/empresas/El-comercio-mundial-de-productos-crecera-2.6-en-2024-y-3.3-en-2025-OMC-20240410-0045.html"  target="_blank">  <img src="../imgntc/com/3.jpg" alt="Comerciales 3"></a>
+              
+                <div class="gallery-caption">
+                    <h3>Comercio mundial de productos crecería 2.6% en 2024: OMC</h3>
+                    <p>La organización pronostica una recuperación gradual, a medida que se vayan reduciendo las presiones inflacionarias y vayan mejorando los ingresos reales de los hogares. </p>
+                </div>
+            </div>
+         
+
+        </div>
+    </section>
+
+    <section class="videos">
+        <div class="video-container">
+            <h2>Informacion sobre Comercio Internacional</h2>
+            <div class="video">
+                <iframe width="500" height="400"
+                src="https://www.youtube.com/embed/hMGGfDjAbHw"  frameborder="0" allowfullscreen></iframe>              
+                  <p>En este video se analiza el funcionamiento del comercio internacional de una manera clara y amena, utilizando explicaciones y metáforas. Descubrirás cómo los países intercambian bienes y servicios, cuáles son los actores involucrados y qué beneficios aporta el comercio internacional a la economía global.</p>
+            </div>
+            <!-- Agrega más videos aquí -->
+        </div>
+    </section>
+
+    <section class="useful-links">
+        <div class="link-container">
+          <h2>Enlaces Útiles para saber más de Comercio</h2>
+          <div class="link-item">
+            <div class="link-content">
+              <h3 class="link-title"><a href="https://www.wto.org/english/home.htm" target="_blank">Organización Mundial del Comercio (OMC)</a></h3>
+              <p class="link-description">Sitio oficial de la OMC, con información sobre las normas, acuerdos y actividades relacionadas con el comercio internacional.</p>
+            </div>
+            <span class="link-icon"><i class="fas fa-chevron-right"></i></span>
+          </div>
+          <div class="link-item">
+            <div class="link-content">
+              <h3 class="link-title"><a href=" https://oec.world/" target="_blank">Observatorio Económico del Comercio</a></h3>
+              <p class="link-description">Este sitio web ofrece información y análisis sobre el comercio internacional, incluyendo datos sobre flujos comerciales, aranceles, inversión extranjera directa y políticas comerciales.</p>
+            </div>
+            <span class="link-icon"><i class="fas fa-chevron-right"></i></span>
+          </div>
+          <div class="link-item">
+            <div class="link-content">
+              <h3 class="link-title"><a href="https://www.trademap.org/" target="_blank">Trade Map</a></h3>
+              <p class="link-description">Esta plataforma interactiva te permite explorar el comercio internacional de manera visual, utilizando mapas, gráficos y estadísticas. Puedes analizar las exportaciones e importaciones de diferentes países y productos.</p>
+            </div>
+            <span class="link-icon"><i class="fas fa-chevron-right"></i></span>
+          </div>
+          </div>
+      </section>
+      
+
+      <section id="datos-estadisticos" class="statistics">
+        <div class="statistics-container">
+          <h2>Datos y Estadísticas sobre Comercio Mundial</h2>
+          <div class="statistics-grid">
+            <div class="statistics-item">
+              <h3>Volumen de Comercio Internacional</h3>
+              <p>Conoce las cifras del comercio internacional, incluyendo exportaciones e importaciones globales por región y sector.</p>
+              <a href="https://www.wto.org/english/news_e/statis_e/data_e.htm" target="_blank">Ver más</a>
+            </div>
+         
+            <div class="statistics-item">
+              <h3>Flujos de Inversión Extranjera Directa (IED)</h3>
+              <p>Explora las tendencias y el impacto de la inversión extranjera directa en diferentes países y sectores.</p>
+              <a href="https://unctad.org/en/data/fdi-statistics" target="_blank">Ver más</a>
+            </div>
+            <div class="statistics-item">
+              <h3>Acuerdos Comerciales</h3>
+              <p>Conoce la red de acuerdos comerciales internacionales, sus alcances y beneficios para el comercio global.</p>
+              <a href="https://www.wto.org/english/tratop_e/treaties_e.htm" target="_blank">Ver más</a>
+            </div>
+        
+            
+          </div>
+        </div>
+      </section>
+      
+      <section id="eventos-comerciales" class="events">
+        <div class="events-container">
+          <h2>Próximos Eventos Comerciales</h2>
+          <div class="events-grid">
+            <div class="event-item">
+              <h3>Conferencia Ministerial de la OMC</h3>
+              <p>La 13ª Conferencia Ministerial de la Organización Mundial del Comercio (OMC) se celebrará en Ginebra, Suiza, del 29 de noviembre al 3 de diciembre de 2024.</p>
+              <p>Los ministros de comercio de los países miembros de la OMC se reunirán para discutir el futuro del comercio multilateral, abordar los desafíos actuales y avanzar en las negociaciones comerciales en curso.</p>
+              <a href="https://www.wto.org/english/news_e/mc13_e.htm" class="btn-leer-mas" target="_blank">Leer más</a>
+            </div>
+            <div class="event-item">
+              <h3>Foro Económico Mundial de Davos</h3>
+              <p>El Foro Económico Mundial (WEF) se celebrará en Davos, Suiza, del 16 al 20 de enero de 2025.</p>
+              <p>El tema de la reunión de este año será "Cooperación en un mundo fragmentado". Los líderes empresariales, gubernamentales y de la sociedad civil se reunirán para discutir cómo abordar los desafíos globales y construir un futuro más sostenible e inclusivo.</p>
+              <a href="https://www.weforum.org/events/world-economic-forum-annual-meeting-2025" class="btn-leer-mas" target="_blank">Leer más</a>
+            </div>
+            <div class="event-item">
+              <h3>Cumbre de las Américas</h3>
+              <p>La IX Cumbre de las Américas se celebrará en Los Ángeles, Estados Unidos, del 8 al 10 de junio de 2024.</p>
+              <p>Los líderes de los países del continente americano se reunirán para discutir temas como el comercio, la inversión, la migración y el cambio climático.</p>
+              <a href="https://www.summitoftheamericas.org/" class="btn-leer-mas" target="_blank">Leer más</a>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+      
+      
+    
+
+    
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#"><i class="material-icons">info</i> Sobre Nosotros</a></li>
+                    <li><a href="#"><i class="material-icons">gavel</i> Términos de Servicio</a></li>
+                    <li><a href="#"><i class="material-icons">lock</i> Política de Privacidad</a></li>
+                    <li><a href="#"><i class="material-icons">mail</i> Contáctanos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Categorías de Noticias</h3>
+                <ul>
+                    <li><a href="#">Política</a></li>
+                    <li><a href="#">Economica</a></li>
+                    <li><a href="#">Comercial</a></li>
+                    <li><a href="#">Medio Ambiente</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos en Redes Sociales</h3>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Suscríbete a nuestro boletín</h3>
+                <form>
+                    <input type="email" placeholder="Tu correo electrónico">
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+  
+
+    <script src="main2.js"></script>
+    <script src="/main.js"></script>
+
+
+</body>
+</html>

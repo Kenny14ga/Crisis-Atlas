@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <title>Politica</title>
+    <link rel="icon" href="../logo/world.png">
+    <link rel="stylesheet" href="sytles2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../logo/logodef.PNG" alt="Logo">
+        </div>
+        <div class="header-container">
+          
+            <nav>
+                <ul class="nav-menu">
+                    <li><a id="Inicio" href="../index.html">Inicio</a></li>
+                    <li class="dropdown", id="dropdown-toggle-crisis">
+                        <a href="#" >Crisis Globales<i class="material-icons dropdown-icon">arrow_drop_down</i></a>
+                        <ul class="dropdown-content">
+                            <li><a id="crisisPoliticas" href="#">Crisis Politicas</a></li>
+                            <li><a id="crisisEconomicas" href="#">Crisis Economicas</a></li>
+                            <li><a id="crisisComerciales" href="#">Crisis Comerciales</a></li>
+                            <li><a id="crisisAmbientales" href="#">Crisis Ambientales</a></li>
+                            <li><a id="crisisSociales" href="#">Crisis Sociales</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown", id="dropdown-toggle-recursos">
+                        <a href="#" >Recursos<i class="material-icons dropdown-icon">arrow_drop_down</i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Informes</a></li>
+                            <li><a href="#">Documentación</a></li>
+                        </ul>
+                    </li>
+                    <li><a id="mapar" href="#">Mapa</i></a></li>
+                    <li><a href="/index.html#noticias-destacadas">Destacadas</a></li>
+                    <li><a href="/index.html#sobre-nosotros">Nosotros</a></li>
+                </ul>
+            </nav>
+          
+        </div>
+     
+    </header>
+
+    <section class="gallery">
+        <h2>Noticias de Política Mundial</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <a href="https://elpais.com/america/2024-04-21/bolsonaro-exalta-a-musk-y-reclama-una-amnistia-para-los-golpistas-durante-un-mitin-en-copacabana.html" target="_blank">
+                    <img src="../imgntc/pol/1.jpeg" alt="Política 1" ></a>
+                
+                <div class="gallery-caption">
+                    <h3>Bolsonaro exalta a Musk y reclama amnistía para los golpistas durante un mitin en Copacabana</h3>
+                    <p>El presidente de Brasil, Jair Bolsonaro, elogió al multimillonario Elon Musk durante un mitin en Río de Janeiro, y pidió amnistía para los participantes en el asalto al Capitolio de los Estados Unidos en 2021.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <a href="https://www.elmundo.es/internacional/2024/04/26/662c21aefdddff32a08b457a.html" target="_blank"> 
+                    <img src="../imgntc/pol/2.jpeg" alt="Política 2"></a>
+               
+                <div class="gallery-caption">
+                    <h3>Protestas propalestinas en universidades estadounidenses</h3>
+                    <p>Estudiantes de diversas universidades organizan protestas en respuesta a la acción militar israelí en la Franja de Gaza. Las manifestaciones se han producido en campus como UCLA, UC Berkeley y la Universidad de Michigan, entre otros.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <a href="https://www.france24.com/es/am%C3%A9rica-latina/20240422-panam%C3%A1-llama-a-consultas-a-su-embajador-en-nicaragua-por-acciones-pol%C3%ADtico-partidistas-de-martinelli" target="_blank"> 
+                    <img src="../imgntc/pol/3.jpg" alt="Política 3"></a>
+               
+                <div class="gallery-caption">
+                    <h3>Panamá llama a consultas a su embajador en Nicaragua por expresidente Ricardo Martinelli</h3>
+                    <p>El gobierno de Panamá decidió llamar a consultas a su embajador en Nicaragua en respuesta a la decisión de ese país de conceder asilo político al expresidente panameño Ricardo Martinelli.</p>
+                </div>
+            </div>
+         
+
+        </div>
+    </section>
+
+    <section class="videos">
+        <div class="video-container">
+            <h2>Informacion sobre politica</h2>
+            <div class="video">
+                <iframe width="500" height="400"
+                src="https://www.youtube.com/embed/4CTr0pfFhvw"  frameborder="0" allowfullscreen></iframe>              
+                  <p>de Ludus Politikos: Un video corto y animado que te explica de forma sencilla qué es la política, sus elementos clave y su importancia en nuestras vidas.</p>
+            </div>
+            <!-- Agrega más videos aquí -->
+        </div>
+    </section>
+
+    <section class="useful-links">
+        <div class="link-container">
+          <h2 >Enlaces Útiles para saber más de Política</h2>
+          <div class="link-item">
+            <div class="link-content">
+              <h3 class="link-title"><a href="https://www.un.org/en/" target="_blank">Naciones Unidas</a></h3>
+              <p class="link-description">Ofrece una amplia gama de recursos sobre temas políticos globales, incluyendo noticias, análisis, informes y eventos.</p>
+            </div>
+            <span class="link-icon"><i class="fas fa-chevron-right"></i></span>
+          </div>
+          <div class="link-item">
+            <div class="link-content">
+              <h3 class="link-title"><a href="https://elpais.com/" target="_blank">El País</a></h3>
+              <p class="link-description">Es un periódico español de referencia, con una amplia cobertura de temas políticos globales y nacionales.</p>
+            </div>
+            <span class="link-icon"><i class="fas fa-chevron-right"></i></span>
+          </div>
+          <!-- Agrega más enlaces aquí -->
+        </div>
+      </section>
+      
+
+    <section id="datos-estadisticos" class="statistics">
+        <div class="statistics-container">
+            <h2>Datos y Estadísticas sobre Política Mundial</h2>
+            <div class="statistics-grid">
+                <div class="statistics-item">
+                    <h3>Índice de Desarrollo Humano (IDH)</h3>
+                    <p>El IDH es un indicador que mide el nivel de vida de la población de un país. Se calcula a partir de tres dimensiones básicas: salud, educación e ingresos.</p>
+                    <a href="https://www.undp.org/es/colombia/informe-sobre-desarrollo-humano-2023" target="_blank">Ver más</a>
+                </div>
+                <div class="statistics-item">
+                    <h3>Índice de Democracia</h3>
+                    <p>El Índice de Democracia clasifica los países del mundo en función del grado de democracia que tienen. Se basa en cinco categorías: proceso electoral y pluralismo, funcionamiento del gobierno, participación política, cultura política y libertades civiles.</p>
+                    <a href="https://www.eiu.com/n/campaigns/democracy-index-2022/ " target="_blank">Ver más</a>
+                </div>
+                <div class="statistics-item">
+                    <h3>Población Mundial</h3>
+                    <p>Visualiza en tiempo real la población mundial y su distribución por regiones.</p>
+                    <a href="  https://www.worldometers.info/world-population/" target="_blank">Ver más</a>
+                </div>
+                <!-- Agrega más estadísticas aquí -->
+            </div>
+        </div>
+    </section>
+    <section id="eventos-politicos" class="events">
+        <div class="events-container">
+            <h2>Próximos Eventos Políticos</h2>
+            <div class="events-grid">
+                <div class="event-item">
+                    <h3>Evolución de la guerra entre Ucrania y Rusia</h3>
+                    <p>El profesor Cobian observa un estancamiento en la situación de Ucrania durante el último bloque de 2023.</p>
+                    <p>Destaca la importancia de anticipar lo que podría suceder este año, y señala el apoyo crucial de los aliados occidentales a Ucrania.</p>
+                    <a href="https://www.bbc.com/mundo/topics/cv1qkggw4r1t" class="btn-leer-mas" target="_blank">Leer más</a>
+                </div>
+                <div class="event-item">
+                    <h3>Intervención internacional en conflicto Israel-Hamás</h3>
+                    <p>El conflicto entre Israel y Hamas podría intensificarse en 2024, con múltiples escenarios posibles.</p>
+                    <p>Se prevé una posible alianza con países árabes y un impacto en las elecciones estadounidenses del 2024.</p>
+                    <a href="https://www.elmundo.es/internacional/guerra-israel.html" class="btn-leer-mas" target="_blank">Leer más</a>
+                </div>
+                <div class="event-item">
+                    <h3>Elecciones presidenciales en México</h3>
+                    <p>Se espera que México tenga su primera presidenta en 2024. Las elecciones se relacionan con la nueva era de relaciones con Estados Unidos.</p>
+                    <p>Los temas clave incluyen migración desde Centroamérica, caravanas organizadas por la sociedad civil y el tema del fentanilo.</p>
+                    <a href="https://www.elfinanciero.com.mx/opinion/colaborador-invitado/2024/01/16/2024-ano-crucial-para-mexico/" class="btn-leer-mas" target="_blank">Leer más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#"><i class="material-icons">info</i> Sobre Nosotros</a></li>
+                    <li><a href="#"><i class="material-icons">gavel</i> Términos de Servicio</a></li>
+                    <li><a href="#"><i class="material-icons">lock</i> Política de Privacidad</a></li>
+                    <li><a href="#"><i class="material-icons">mail</i> Contáctanos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Categorías de Noticias</h3>
+                <ul>
+                    <li><a href="#">Política</a></li>
+                    <li><a href="#">Economica</a></li>
+                    <li><a href="#">Comercial</a></li>
+                    <li><a href="#">Medio Ambiente</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos en Redes Sociales</h3>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Suscríbete a nuestro boletín</h3>
+                <form>
+                    <input type="email" placeholder="Tu correo electrónico">
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+  
+
+    <script src="main2.js"></script>
+    <script src="../main.js"></script>
+
+
+</body>
+</html>
