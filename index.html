@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+
+
+    <title>Crisis atlas</title>
+    <link rel="icon" href="logo\world.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo\logodef.PNG" alt="Logo">
+        </div>
+        <div class="header-container">
+          
+            <nav>
+                <ul class="nav-menu">
+                    <li><a id="Inicio" href="index.html">Inicio</a></li>
+                    <li class="dropdown", id="dropdown-toggle-crisis">
+                        <a href="#" >Crisis Globales<i class="material-icons dropdown-icon">arrow_drop_down</i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#crisis-politicas">Crisis Politicas</a></li>
+                            <li><a href="#crisis-economicas">Crisis Eonomicas</a></li>
+                            <li><a href="#crisis-comerciales">Crisis Comerciales</a></li>
+                            <li><a href="#crisis-ambientales">Crisis Ambientales</a></li>
+                            <li><a href="#crisis-sociales">Crisis Sociales</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown", id="dropdown-toggle-recursos">
+                        <a href="#" >Recursos<i class="material-icons dropdown-icon">arrow_drop_down</i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Informes</a></li>
+                            <li><a href="#">Documentación</a></li>
+                        </ul>
+                    </li>
+                    <li><a id="mapar" href="#">Mapa</i></a></li>
+                    <li><a href="#noticias-destacadas">Destacadas</a></li>
+                    <li><a href="#sobre-nosotros">Nosotros</a></li>
+                </ul>
+            </nav>
+          
+        </div>
+        <button class="toggle-button closed" onclick="toggleMenu()">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+       
+    </header>
+
+    <section class="section-1">
+        <h1 class="section-title">Explora el mundo de las crisis </h1>
+         <div id="search-container">
+                <label for="search-input" class="search-label">
+                    <i class="search-icon material-icons">search</i>
+                    <input type="text" id="search-input" class="search-input" placeholder="Buscar...">
+                </label>
+                <button id="explore-map-btn">Explorar mapa</button>
+
+            </div>
+            </div>
+            <div class="labels">
+                <a href="#">Cerca de mi</a>
+                <a href="#">En directo</a>
+            </div>
+            
+            <div id="map-container" >
+                <div id="map">
+         
+                    <script  src ="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+                    
+                    
+                    </div>
+
+            </div>
+         
+    </section>
+
+    <section id="sobre-nosotros">
+        <div class=" us-container">
+          <div class="content">
+            <h2>Crisis Atlas: Conoces sobre nosotros</h2>
+            <div class="paragraph">
+              <p>Crisis Atlas es una plataforma interactiva y visual que tiene como finalidad proporcionar al público en general una amplia gama de crisis globales obtenida de fuentes confiables y fidedignas, sin influencia de opiniones o juicios de valor, permitiendo que puedan formarse sus propias opiniones y tomar decisiones informadas.</p>
+              <p>Nuestra misión es poder brindar información objetiva, veraz y oportuna sobre los acontecimientos más importantes que se presentan de manera global, sin sesgos ni agendas predefinidas, con el fin de mantener al público informado y capacitado para comprender los eventos que impactan al mundo.</p>
+            </div>
+            <a href="html/us.html" class="btnus">Mas sobre nosotros</a>
+          </div>
+          <div class="background-image">
+            <img src="logo\logodef.PNG" alt="Crisis global">
+          </div>
+        </div>
+      </section>
+
+
+    <section class="crisis-container">
+        <h2 class="container-title">Explora con nosotros las crisis globales</h2>
+         <!-- Crisis Políticas -->
+     <section id="crisis-politicas" class="crisis-section">
+        <div  class="section-header">
+             <h2>Crisis Políticas</h2>
+        </div>
+        <div class="section-description">
+            <p>Las crisis políticas se refieren a situaciones de inestabilidad o conflictos en el ámbito político de un país o región. Estas crisis pueden surgir por diversos motivos, como disputas electorales, corrupción, violaciones a los derechos humanos, entre otros. A menudo, las crisis políticas pueden tener impactos significativos en la estabilidad y el desarrollo socioeconómico de un país.</p>
+            <a href="html/politica.html" >Ver Noticias de Crisis Políticas</a>
+        </div>
+    </section>
+   
+    <!-- Crisis Económicas -->
+    <section id="crisis-economicas" class="crisis-section">
+        <div class="section-header">
+            <h2>Crisis Económicas</h2>
+        </div>
+        <div class="section-description">
+            <p>Las crisis económicas se caracterizan por una disminución abrupta en la actividad económica, que puede manifestarse en recesiones, depresiones o crisis financieras. Estos eventos pueden estar relacionados con factores como la inflación descontrolada, el endeudamiento excesivo, la especulación financiera, entre otros. Las crisis económicas suelen tener efectos negativos en el empleo, la producción y el bienestar de la población.</p>
+            <a href="html/economia.html">Ver Noticias de Crisis Económicas</a>
+        </div>
+    </section>
+
+    <!-- Crisis Comerciales -->
+    <section id="crisis-comerciales" class="crisis-section">
+        <div class="section-header">
+            <h2>Crisis Comerciales</h2>
+        </div>
+        <div class="section-description">
+            <p>Las crisis comerciales se producen cuando hay un deterioro significativo en el intercambio de bienes y servicios entre países. Estas crisis pueden ser causadas por conflictos comerciales, restricciones arancelarias, sanciones económicas u otros obstáculos al comercio internacional. Las crisis comerciales pueden afectar negativamente el crecimiento económico y la estabilidad financiera a nivel global.</p>
+            <a href="html/comerciales.html">Ver Noticias de Crisis Comerciales</a>
+        </div>
+    </section>
+
+    <!-- Crisis Ambientales -->
+    <section id="crisis-ambientales" class="crisis-section">
+        <div class="section-header">
+            <h2>Crisis Ambientales</h2>
+        </div>
+        <div class="section-description">
+            <p>Las crisis ambientales se refieren a eventos o condiciones que amenazan la salud y la sostenibilidad del medio ambiente. Estos incluyen fenómenos como el cambio climático, la deforestación, la contaminación del aire y del agua, la pérdida de biodiversidad, entre otros. Las crisis ambientales pueden tener impactos devastadores en los ecosistemas, la seguridad alimentaria y la salud humana.</p>
+            <a href="html/ambientales.html">Ver Noticias de Crisis Ambientales</a>
+        </div>
+    </section>
+
+    <!-- Crisis Sociales -->
+    <section id="crisis-sociales" class="crisis-section">
+        <div class="section-header">
+            <h2>Crisis Sociales</h2>
+        </div>
+        <div class="section-description">
+            <p>Las crisis sociales implican tensiones o conflictos en la sociedad que afectan la convivencia y el bienestar de sus miembros. Estos pueden surgir debido a desigualdades económicas, discriminación, conflictos étnicos o religiosos, crisis de valores, entre otros factores. Las crisis sociales pueden generar división, violencia y desconfianza en las instituciones sociales y políticas.</p>
+            <a href="html/sociales.html">Ver Noticias de Crisis Sociales</a>
+        </div>
+    </section>
+
+
+    </section>
+
+
+    <section class="section-destacadas">
+        <h2 >Noticias Destacadas</h2>
+        <div class="noticias-destacadas" id="noticias-destacadas">
+            <!-- Las noticias destacadas se cargarán aquí dinámicamente -->
+        </div>
+    </section>
+
+    <div class="panel-container closed">
+        <div class="panel">
+          <div class="panel-header">
+            <span id="country-flag" class="flag-icon"></span> <!-- Bandera del país -->
+            <h2 id="country-name"></h2>
+          </div>
+          <div class="panel-content">
+            <p id="country-info"></p>
+          </div>
+       
+        </div>
+        <button class="toggle-button closed">
+            <i class="fas fa-caret-left arrow-icon"></i> <!-- Flecha hacia la izquierda como icono -->
+        </button>
+        
+      </div>
+    
+   
+
+      <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="html/us.html"><i class="material-icons">info</i> Sobre Nosotros</a></li>
+                    <li><a href="#"><i class="material-icons">gavel</i> Términos de Servicio</a></li>
+                    <li><a href="#"><i class="material-icons">lock</i> Política de Privacidad</a></li>
+                    <li><a href="#"><i class="material-icons">mail</i> Contáctanos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Categorías de Noticias</h3>
+                <ul>
+                    <li><a href="#">Política</a></li>
+                    <li><a href="#">Economía</a></li>
+                    <li><a href="#">Comercial</a></li>
+                    <li><a href="#">Medio Ambiente</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos en Redes Sociales</h3>
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Suscríbete a nuestro boletín</h3>
+                <form>
+                    <input type="email" placeholder="Tu correo electrónico">
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+  
+    
+    <script src="main.js" ></script> <!-- Agrega el enlace a tu archivo JavaScript -->
+
+    <script src="noticias.js"></script>
+    
+  
+    
+
+</body>
+</html>
